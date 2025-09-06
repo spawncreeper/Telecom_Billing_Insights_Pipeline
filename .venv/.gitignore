@@ -1,0 +1,57 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+*.spec
+*.exe
+*.pkg
+*.dll
+
+# ===============================
+# Logs / Reports
+# ===============================
+*.log
+reports/*.html
+reports/*.pdf
+
+# ===============================
+# Data
+# ===============================
+data/raw/
+*.csv
+*.tsv
+*.xlsx
+
+# ===============================
+# Models
+# ===============================
+*.joblib
+*.h5
+*.pkl
+src/models/
