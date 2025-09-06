@@ -1,2 +1,8 @@
-"dist/" 
-"build/" 
+# Ignore virtual environment
+venv/
+
+# Ignore build artifacts
+dist/
+build/
+*.exe
+*.pkg
